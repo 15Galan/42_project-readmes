@@ -47,10 +47,10 @@ Estos son algunos ejemplos de cada tipo de banner:
         <tr>
             <td rowspan="2">Piscina</td>
             <td>
-                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/piscine/exercises/c07-light.png">
+                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/piscine/exercises/c06-light.png">
             </td>
             <td>
-                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/piscine/exercises/c07-dark.png">
+                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/piscine/exercises/c06-dark.png">
             </td>
         </tr>
         <tr>
@@ -73,7 +73,7 @@ Estos son algunos ejemplos de cada tipo de banner:
         <tr>
             <td>
                 <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/cursus/exams/rank02-light.png">
-                </td>
+            </td>
             <td>
                 <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/cursus/exams/rank02-dark.png">
             </td>
@@ -81,19 +81,27 @@ Estos son algunos ejemplos de cada tipo de banner:
         <tr>
             <td rowspan="2">Evento</td>
             <td>
-                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/events/cibersecurity-light.png">
+                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/events/cybersecurity-bootcamp/cybersecurity-light.png">
             </td>
             <td>
-                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/events/cibersecurity-dark.png">
+                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/events/cybersecurity-bootcamp/cybersecurity-dark.png">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/events/cybersecurity-bootcamp/projects/stockholm-light.png">
+            </td>
+            <td>
+                <img src="https://raw.githubusercontent.com/15Galan/42_project-readmes/master/banners/events/cybersecurity-bootcamp/projects/stockholm-dark.png">
             </td>
         </tr>
     </tbody>
 </table>
 
 > [!NOTE]
-> Observa que acabo de introducir imágenes en una tabla, y que además, esta tabla contiene celdas combinadas; esto es posible debido a que Markdown puede usar código HTML anidado, por lo que si observas el código fuente de este README, verás que la tabla está escrita en HTML.
+> Observa que acabo de introducir imágenes en una tabla, y que además, esta tabla contiene celdas combinadas (primera columna); esto es posible debido a que Markdown puede usar código HTML anidado, por lo que si observas el código fuente de este README, verás que la tabla está escrita en HTML.
 
-#### Cómo usar un banner de este repositorio
+#### Cómo usar un encabezado de este repositorio
 
 1. Dirígete al banner que quieras usar.
 2. <kbd>Clic derecho > Copiar dirección de la imagen</kbd>.
@@ -106,7 +114,8 @@ https://github.com/{usuario}/{repositorio}/blob/{rama}/{ruta-imagen}?raw=true
 
 **Esta es la URL que puedes usar para enlazar la imagen con Markdown o HTML.**
 
-> [!NOTE] Si copias y pegas la URL en el navegador, verás que se muestra la imagen en una página web. Esto quiere decir que la URL conduce a una imagen y por tanto, es lo que se obtendrá cuando se use en un README.
+> [!NOTE]
+> Si copias y pegas la URL en el navegador, verás que se muestra la imagen en una página web. Esto quiere decir que la URL conduce a una imagen y por tanto, es lo que se obtendrá cuando se use en un README.
 
 Adicionalmente, verás que la URL anterior habrá cambiado a una con este formato:
 
@@ -173,7 +182,7 @@ Este código puede copiarse y colocarse al inicio de cada README de un nuevo pro
 # Nombre del proyecto
 ```
 
-Este fragmento de código contiene los siguientes elementos, centrados, y en este orden:
+El código mostrado es un ejemplo simplificado del inicio de mi README del proyecto [libft](https://github.com/15Galan/libft), que contiene los siguientes elementos, centrados, y en este orden:
 
 - 1 banner que cambia de color en función del tema de GitHub que use el lector.
 - 4 insignias sobre el proyecto:
@@ -189,7 +198,8 @@ Este fragmento de código contiene los siguientes elementos, centrados, y en est
 > 
 > Tu campus y nombre de usuario de 42 siempre serán los mismos, pero esto no se cumple para tu enlace de 42 del proyecto, ni tu enlace de Wakatime, ni el de las visitas del repositorio.
 
-> [!IMPORTANT] Recuerda que puedes modificar el snippet según los procesos descritos en las secciones [Banners](#banners-encabezados) e [Insignias](#insignias-badges), permitiéndote **no tener que añadir ningún recurso multimedia en tu repositorio**.
+> [!IMPORTANT]
+> Recuerda que puedes modificar el snippet según los procesos descritos en las secciones [Banners](#cómo-usar-un-encabezado-de-este-repositorio) e [Insignias](#cómo-usar-una-insignia-de-este-repositorio), permitiéndote **no tener que añadir ningún recurso multimedia en tu repositorio**.
 
 **Cada banner tiene un atributo `#gh-light-mode-only` o `#gh-dark-mode-only`**  
 Esto es lo que permitirá mostrar el banner de un color acorde al tema de GitHub que esté usando el usuario lector.
@@ -197,4 +207,4 @@ Esto es lo que permitirá mostrar el banner de un color acorde al tema de GitHub
 **Solo tendrás que cambiar los datos del snippet 1 vez / proyecto**  
 Como la insignia de puntuación del proyecto es completamente manual, llega a crear una pequeña dependencia a terminar el proyecto para poder añadir un README que incluya la puntacuón del mismo; además, esto te evita problemas con las reglas de evaluación de 42.
 
-No obstante, si eres una persona más experimentada con Git, te invito a que uses todas sus funcionalidades para poder sortear ese obstáculo (te puedo asegurar que es posible).
+No obstante, si eres una persona más experimentada con Git, te invito a que uses algunas de sus funcionalidades para poder sortear ese obstáculo (te puedo asegurar que es posible).
