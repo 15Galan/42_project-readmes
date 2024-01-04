@@ -10,7 +10,7 @@
         <img src="https://wakatime.com/badge/github/15Galan/42_project_readmes.svg" alt="Tiempo" />
     </a>
     <img src="https://img.shields.io/badge/idioma-🇪🇸-%23aaaaaa.svg?style=flat" alt="Idioma"/>
-    <!-- <img src="https://api.visitorbadge.io/api/visitors?user=15Galan&repo=42_project_readmes&label=visitas&countColor=%2385e3ff&style=flat&labelStyle=none"/> -->
+    <img src="https://api.visitorbadge.io/api/visitors?user=15Galan&repo=42_project_readmes&label=visitas&countColor=%2385e3ff&style=flat&labelStyle=none"/>
 </div>
 
 ---
